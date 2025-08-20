@@ -5,6 +5,9 @@
 - **files/** - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
 ---
 
+Denne kursusgang vil omhandle selektive kontrol mekanismer, som gør at vi kan få varierende funktionalitet, alt efter hvad programmet får som input (eller, hvad en variabel indeholder)
+
+
 ## ​ Usage
 
 To use this template:
@@ -15,6 +18,16 @@ To use this template:
    cd selective_kontrolstrukturer
 
 ## Forberedelse
+- [The C programming Language](https://github.com/AAU-ST1-Programming/introduktion/blob/main/files/The%20C%20Programming%20Language.pdf) 
+   -  Sec2.5, 2.6 2.11-2.12, Sec3.1-3.4, Sec3.7 
+- [C - Decision Making](https://www.tutorialspoint.com/cprogramming/c_decision_making.htm)
+
+Se video:
+- [Tutorialspoint - Kontrol Strukturer Video](https://www.tutorialspoint.com/cprogramming/c_decision_making.htm)
+- [If and Switch Statements](https://panopto.aau.dk/Panopto/Pages/Viewer.aspx?id=6db8c237-69d3-42ec-bdb2-b33600947f6d)
+- [Compare Strings](https://panopto.aau.dk/Panopto/Pages/Viewer.aspx?id=264691e5-2555-4ba3-b7b7-b336009775b1)
+- [Bruger input](https://panopto.aau.dk/Panopto/Pages/Viewer.aspx?id=8b65b3a0-5fcc-432f-bbdf-b33600a4b4a6)
+
 
 Til hver lektion skal man forvente følgende:
 
