@@ -23,7 +23,10 @@ To use this template:
 - [Tutorialspoint if else](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm)
 - [Tutorialspoint switch](https://www.tutorialspoint.com/cprogramming/switch_statement_in_c.htm)
 - [The C programming Language](https://github.com/AAU-ST1-Programming/introduktion/blob/main/files/The%20C%20Programming%20Language.pdf) 
-   -  Sec2.5, 2.6 2.11-2.12, Sec3.1-3.4, Sec3.7 
+   -  Sec2.5-2.6
+   -  Sec 2.11-2.12
+   -  Sec3.1-3.4
+   -  Sec3.7 
 
 Se video:
 - [Tutorialspoint - Kontrol Strukturer Video](https://www.tutorialspoint.com/cprogramming/c_decision_making.htm)
