@@ -1,5 +1,7 @@
 # Selektive Kontrolstrukturerer
 
+![files/shared_overview_table.png](files/shared_overview_table.png)
+
 - **PowerPoint slideshow**: `selective_kontrolstrukturer.pptx`
 - **selective_kontrolstrukturer_questions.docx** – `Indeholder spørgsmål som i får i forbindelsen med forlæsningen.`
 - **files/** - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
