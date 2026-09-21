@@ -51,7 +51,7 @@ Du har arbejdet med følgende værktøjer og begreber:
 ## KS_conditional_esp32
 
 **Scenarie**
-Martin, din chef, har igen bedt dig om at kigge på to ESP32-programmer. Han siger: *"Jeg forstår ikke, hvorfor det ene program skriver hele tiden i konsollen, mens det andet kun skriver, når der sker noget med knappen. Kan du ikke finde ud af, hvad forskellen er?"*
+Martin, din chef, har igen bedt dig om at kigge på til ESP32-programmer. Han siger: *"Jeg forstår ikke, hvorfor det ene program skriver hele tiden i konsollen, mens det andet kun skriver, når der sker noget med knappen. Kan du ikke finde ud af, hvad forskellen er?"*
 
 **What we know**
 Du har arbejdet med følgende værktøjer og begreber:
@@ -62,8 +62,8 @@ Du har arbejdet med følgende værktøjer og begreber:
 - `if`-betingelser: Til at udføre kode baseret på en betingelse.
 
 **Task**
-1. Sammenlign de to programmer, `KS_what_we_know_esp32` og `KS_conditional_esp32`:
-   - Hvad er forskellen på de to programmer?
+1. Sammenlign de til programmer, `KS_what_we_know_esp32` og `KS_conditional_esp32`:
+   - Hvad er forskellen på de til programmer?
    - Hvor bruger vi en condition (`if`) til at ændre funktionen af programmet? Og hvad sker der i denne condition?
 
 2. Hvad gør programmet `KS_conditional_esp32` anderledes end `KS_what_we_know_esp32`?
