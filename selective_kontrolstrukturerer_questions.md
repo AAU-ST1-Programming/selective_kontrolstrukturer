@@ -23,15 +23,15 @@ Du har arbejdet med følgende værktøjer og begreber:
 
 2. Forklar funktionerne:
    - Hvad gør følgende funktioner i programmet?
-     a. `pinMode`
-     b. `digitalRead`
-     c. `Serial.begin`
-     d. `printf`
+      - a. `pinMode`
+      - b. `digitalRead`
+      - c. `Serial.begin`
+      - d. `printf`
 
 3. Specielle pins:
    - Hvad er der specielt ved værdierne `0` og `35`, når man bruger dem med `digitalRead`?
-     a. `0`
-     b. `35`
+      - a. `0`
+      - b. `35`
    - *Hint*: Hvad betyder `GPIO35`, hvis man kigger på ESP32's board layout? (Se recap slides).
 
 4. Problembaseret læringsopgave:
@@ -95,22 +95,22 @@ Du har arbejdet med følgende værktøjer og begreber:
 
 **Task**
 1. I VS Code:
-   a. Åbn mappen `selective_kontrolstrukturer`
-   b. Opret en fil kaldet `p04_ks5.c`
+    - a. Åbn mappen `selective_kontrolstrukturer`
+    - b. Opret en fil kaldet `p04_ks5.c`
 
 2. I filen `p04_ks5.c`:
-   a. Definer følgende variabler inde i `main()`:
+    - a. Definer følgende variabler inde i `main()`:
       ```c
       char name[] = "Dit Navn";
       int gender = 'F'; // eller 'M'
       int age = 20; // skriv din alder
       float bmi = 23.5; // skriv din BMI
       ```
-   b. Udskriv personens navn, alder og BMI til terminalen ved hjælp af `printf`. Overvej, hvordan du formaterer string, integer og float korrekt.
+    - b. Udskriv personens navn, alder og BMI til terminalen ved hjælp af `printf`. Overvej, hvordan du formaterer string, integer og float korrekt.
 
-   c. Udskriv enten `, male, meaning he is` eller `, female, meaning she is` afhængigt af `gender`-variablen:
-      i. Overvej, hvilken type kontrolstruktur der er egnet til at vælge mellem "he" eller "she".
-      ii. Overvej, hvad der sker, hvis man sætter køn til enten 'f' eller 'F'.
+    - c. Udskriv enten `, male, meaning he is` eller `, female, meaning she is` afhængigt af `gender`-variablen:
+      - i. Overvej, hvilken type kontrolstruktur der er egnet til at vælge mellem "he" eller "she".
+      - ii. Overvej, hvad der sker, hvis man sætter køn til enten 'f' eller 'F'.
 
 3. Udskriv BMI-kategorien baseret på følgende:
    - BMI under 18.5: "Underweight"
@@ -153,11 +153,11 @@ Du har arbejdet med følgende værktøjer og begreber:
 
 **Task**
 1. I VS Code:
-   a. Åbn mappen `selective_kontrolstrukturer`
-   b. Opret en fil kaldet `p04_ks6.c`
+    - a. Åbn mappen `selective_kontrolstrukturer`
+    - b. Opret en fil kaldet `p04_ks6.c`
 
 2. I filen `p04_ks6.c`:
-   a. Definer følgende variabler inde i `main()`:
+    - a. Definer følgende variabler inde i `main()`:
       ```c
       char name[] = "Dit Navn";
       int gender = 'F'; // eller 'M'
@@ -166,11 +166,11 @@ Du har arbejdet med følgende værktøjer og begreber:
       float w = 70.0; // vægt i kg
       float bmi;
       ```
-   b. Udregn BMI ved hjælp af formlen: `bmi = w / (h * h)`.
+    - b. Udregn BMI ved hjælp af formlen: `bmi = w / (h * h)`.
 
-   c. Udskriv personens navn, alder og BMI til terminalen ved hjælp af `printf`.
+    - c. Udskriv personens navn, alder og BMI til terminalen ved hjælp af `printf`.
 
-   d. Udskriv enten `, male, meaning he is` eller `, female, meaning she is` afhængigt af `gender`-variablen.
+    - d. Udskriv enten `, male, meaning he is` eller `, female, meaning she is` afhængigt af `gender`-variablen.
 
 3. Udskriv BMI-kategorien baseret på følgende:
    - BMI under 18.5: "Underweight"
@@ -213,18 +213,18 @@ Du har arbejdet med følgende værktøjer og begreber:
 
 **Task**
 1. I Arduino IDE:
-   a. Lav et nyt Arduino-projekt kaldet `p04_ks7`.
+    - a. Lav et nyt Arduino-projekt kaldet `p04_ks7`.
 
 2. Aktiver venstre og højre knap på ESP32.
 
 3. I global scope:
-   a. Deklarer en integer variabel `c` og initialiser den til `0`.
+    - a. Deklarer en integer variabel `c` og initialiser den til `0`.
 
 4. I `loop()`-funktionen:
-   a. Hvert 100. millisekund:
-      i. Vurder, om venstre knap er trykket. Hvis ja, dekrementer `c` med 1.
-      ii. Vurder, om højre knap er trykket. Hvis ja, inkrementer `c` med 1.
-      iii. Send den nye værdi af `c` over seriell forbindelse.
+    - a. Hvert 100. millisekund:
+      - i. Vurder, om venstre knap er trykket. Hvis ja, dekrementer `c` med 1.
+      - ii. Vurder, om højre knap er trykket. Hvis ja, inkrementer `c` med 1.
+      - iii. Send den nye værdi af `c` over seriell forbindelse.
 
 5. Problembaseret læringsopgave:
    - Observer, at dit program virker via Serial Plotter og Serial Monitor.
